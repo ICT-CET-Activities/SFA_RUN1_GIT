@@ -1,0 +1,4 @@
+def hello():
+  print("Hello World!" + " Chakie is here")
+  print ("20 July 2023")
+  print ("Activity #2")
