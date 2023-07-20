@@ -1,0 +1,23 @@
+name: Simple Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build my project
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build project
+        run: |
+          # Replace the build command below with your actual build command
+          echo "Building the project..."
+          # Your build command goes here
+      - name: Print message
+        run: echo "Build completed successfully!"

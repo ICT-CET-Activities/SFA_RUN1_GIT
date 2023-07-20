@@ -1,0 +1,10 @@
+name: Checkout private repo remotely
+uses: actions/checkout@v2
+with:
+  repository: ICT-CET-Activities/hiddenRepo
+  path: 
+  token: ${{ secrets.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 }}
+name: Show hidden files
+run: |
+  cd <folder of choice>
+  ls
